@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@styles/*": ["./src/styles/*"],
+      "@flow/*": ["./src/flow/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@widgets/*": ["./src/widgets/*"],
     }
   }
 }

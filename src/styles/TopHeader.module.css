@@ -1,0 +1,20 @@
+.top_header_outer {
+  padding: 20px;
+}
+.icons {
+  width: 18px;
+  height: 18px;
+}
+.user_icons {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.site_logo{
+    height: 18px;
+    width: fit-content;
+}
