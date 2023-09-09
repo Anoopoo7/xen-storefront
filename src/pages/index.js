@@ -18,6 +18,14 @@ export const getStaticProps = async () => {
           shoppingText: "Shopping",
         },
       },
+      {
+        widgetId: "a769f819-3eb1-4d0a-8663-6ff00c44fcfc",
+        data: {
+          container: {
+            style: { backgroundColor: "#E5E5E5" },
+          },
+        },
+      },
     ],
   };
   return { props: { configuration } };

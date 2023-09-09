@@ -28,12 +28,12 @@ export default function AlphaTopHeaderComponent({
             className={style.site_logo}
             src={logo}
             alt="logo"
-            width={180}
+            width={80}
             height={18}
           />
         </div>
         <div className={style.user_icons}>
-          <div className="mx-3 pointer">
+          <div className="ms-3 pointer">
             <Image
               className={style.icons}
               src={profileIcon}
@@ -41,9 +41,9 @@ export default function AlphaTopHeaderComponent({
               width={18}
               height={18}
             />
-            <small className="mx-2">{profileText}</small>
+            <small className="ms-2">{profileText}</small>
           </div>
-          <div className="mx-3 pointer">
+          <div className="ms-5 pointer">
             <Image
               className={style.icons}
               src={shoppingIcon}
@@ -51,7 +51,7 @@ export default function AlphaTopHeaderComponent({
               width={18}
               height={18}
             />
-            <small className="mx-2">{shoppingText}</small>
+            <small className="ms-2">{shoppingText}</small>
           </div>
         </div>
       </div>
